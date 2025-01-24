@@ -1,7 +1,7 @@
 import { database } from './aquariumData.js';
 
 export const locationList = () => {
-    let locationHTML = '<article class="locations"><h2>Locations</h2>'
+    let locationHTML = '<h2>Locations</h2><article class="locations">'
 
     for(const data of database.locations){
         locationHTML += `

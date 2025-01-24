@@ -1,9 +1,9 @@
-import { fishList } from './fishList.js'
+import { fishList, mostHolyFish, soldierFish, regularFish } from './fishList.js'
 import { tipList } from './tipList.js'
 import { locationList } from './locationList.js'
 
 // Generate the fish list
-const fishHTML = fishList()
+//const fishHTML = fishList()
 
 // Generate the care tips
 const tipHTML = tipList()
@@ -37,6 +37,12 @@ const renderLocationsToDOM = (lHTML) => {
         console.log('Could not find element with id "locationList"')
     }
 }
+
+debugger
+let holy = mostHolyFish()
+let soldier = soldierFish()
+let regular = regularFish()
+const fishHTML = `<h2>Fish</h2><article class="fish">${holy}${soldier}${regular}</article>`
 
 renderFishToDOM(fishHTML)
 renderTipsToDOM(tipHTML)

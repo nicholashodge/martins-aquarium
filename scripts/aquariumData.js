@@ -55,6 +55,118 @@ export const database = {
             location: "Swahili Coast",
             diet: "Omnivore",
             image: "https://reefbuilders.com/wp-content/blogs.dir/1/files/2020/06/cleaner-wrasse4.jpg"
+        },
+        {
+            name: "Marlin",
+            species: "Clownfish",
+            length: 9,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/marlin.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Yellow Tang",
+            length: 5,
+            location: "Hawaii Reefs",
+            diet: "Herbivore",
+            image: "https://example.com/images/bubbles.jpg"
+        },
+        {
+            name: "Gill",
+            species: "Moorish Idol",
+            length: 15,
+            location: "Indian Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/gill.jpg"
+        },
+        {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 30,
+            location: "Open Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/bruce.jpg"
+        },
+        {
+            name: "Anchor",
+            species: "Hammerhead Shark",
+            length: 12,
+            location: "Coastal Waters",
+            diet: "Carnivore",
+            image: "https://example.com/images/anchor.jpg"
+        },
+        {
+            name: "Chum",
+            species: "Mako Shark",
+            length: 24,
+            location: "Tropical Seas",
+            diet: "Carnivore",
+            image: "https://example.com/images/chum.jpg"
+        },
+        {
+            name: "Flo",
+            species: "Royal Gramma",
+            length: 6,
+            location: "Caribbean Reefs",
+            diet: "Omnivore",
+            image: "https://example.com/images/flo.jpg"
+        },
+        {
+            name: "Crush",
+            species: "Sea Turtle",
+            length: 21,
+            location: "Great Barrier Reef",
+            diet: "Herbivore",
+            image: "https://example.com/images/crush.jpg"
+        },
+        {
+            name: "Squirt",
+            species: "Sea Turtle",
+            length: 18,
+            location: "Coral Atolls",
+            diet: "Herbivore",
+            image: "https://example.com/images/squirt.jpg"
+        },
+        {
+            name: "Deb",
+            species: "Blacktail Damselfish",
+            length: 10,
+            location: "Shallow Reefs",
+            diet: "Omnivore",
+            image: "https://example.com/images/deb.jpg"
+        },
+        {
+            name: "Bloat",
+            species: "Porcupine Pufferfish",
+            length: 5,
+            location: "Tropical Reefs",
+            diet: "Carnivore",
+            image: "https://example.com/images/bloat.jpg"
+        },
+        {
+            name: "Jacques",
+            species: "Cleaner Shrimp",
+            length: 3,
+            location: "Marine Reefs",
+            diet: "Omnivore",
+            image: "https://example.com/images/jacques.jpg"
+        },
+        {
+            name: "Peach",
+            species: "Starfish",
+            length: 27,
+            location: "Rocky Shores",
+            diet: "Carnivore",
+            image: "https://example.com/images/peach.jpg"
+        },
+        {
+            name: "Mr. Ray",
+            species: "Manta Ray",
+            length: 45,
+            location: "Open Oceans",
+            diet: "Planktivore",
+            image: "https://example.com/images/mr_ray.jpg"
         }
     ],
     tips:[

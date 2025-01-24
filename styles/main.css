@@ -9,12 +9,10 @@ body {
     height: 100%;
 }
 
-#fishList{
+.fish{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: beige;
-    /* trying to force the correct number of rows and columns*/
-    grid-template-rows: repeat(4, 1fr);
 }
 
 #tipList{
@@ -22,14 +20,14 @@ body {
     flex-direction: column;
 }
 
-#locationList{
+.locations{
     display: grid;
     /* 2 columns of 1fr each to display locations */
     grid-template-columns: 1fr 1fr;
 }
 
 .fish__image {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 300px;
     padding: 10px;
 }
