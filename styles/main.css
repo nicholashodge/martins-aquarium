@@ -1,0 +1,116 @@
+body {
+    width: auto;
+}
+
+#main{
+    display: grid;
+    /* 2fr on the right for 2 rows of fish, 1 fr on left for tips*/
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+}
+
+#fishList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: beige;
+    /* trying to force the correct number of rows and columns*/
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#tipList{
+    display: flex;
+    flex-direction: column;
+}
+
+#locationList{
+    display: grid;
+    /* 2 columns of 1fr each to display locations */
+    grid-template-columns: 1fr 1fr;
+}
+
+.fish__image {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.fish__object{
+    width: 300px;
+    border: 2px solid;
+    padding: 5px;
+}
+/*
+#main {
+    display: grid;
+    
+}
+
+#top {
+    background-color: brown;
+}
+
+#fishList {
+    flex: 0 0 500px;
+    background-color: #df834d;
+    
+}
+
+#tipList {
+    flex: 0 0 500px;
+    background-color: beige;
+}
+
+#locationList {
+
+}
+
+.fish{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.fish__object{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+    /*
+    width: 25rem;
+    height: 25rem;
+    padding: 35px;
+    background-color: #4ddfc7;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+*/
+
+
+/*
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+}
+/*
+.locations{
+    display: flex;
+
+    background-color: blueviolet;
+}
+#fishList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+#tipList {
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
